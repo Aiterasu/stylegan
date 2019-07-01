@@ -1,7 +1,7 @@
 Script to animate the mouth position of StyleGAN output from an audio file.
 
 ## Install
-`ffmpeg` must be installed.
+`ffmpeg` and NVIDIA CUDA drivers must be installed.
 
 *Prepare Python Environment*
 ```bash
@@ -54,5 +54,8 @@ optional arguments:
   --seed SEED           Random seed. 
 ```
 
-Branched from https://github.com/halcy/stylegan.
-See https://github.com/NVlabs/stylegan for original README.
+## Notes
+
+The audio amplitude to mouth position mapping is pretty basic and could use some improvement.
+
+See https://github.com/NVlabs/stylegan for original README. Tags from https://github.com/halcy/stylegan.
